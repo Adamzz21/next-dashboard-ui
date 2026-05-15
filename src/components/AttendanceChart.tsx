@@ -58,7 +58,7 @@ const AttendanceChart = () => {
       </div>
       <BarChart
         style={{
-          height: "100%",
+          height: "90%",
           width: "100%",
           maxWidth: "700px",
           maxHeight: "80vh",
