@@ -4,7 +4,7 @@ import EventCalendar from "@/components/EventCalendar";
 
 const StudentPage = () => {
   return (
-    <div className="p-4 flex gap-4 flex-col md:flex-row">
+    <div className="p-4 flex gap-4 flex-col xl:flex-row">
       {/*LEFT*/}
       <div className="w-full xl:w-2/3">
         <div className="h-full bg-white p-4 rounded-md">
@@ -13,11 +13,10 @@ const StudentPage = () => {
         </div>
       </div>
       {/* right */}
-      <div className="w-full xl:w-1/3">
-        <div className="w-full flex flex-col gap-8">
-          <EventCalendar />
-          <Announcements />
-        </div>
+
+      <div className="w-full flex flex-col xl:w-1/3 gap-8">
+        <EventCalendar />
+        <Announcements />
       </div>
     </div>
   );

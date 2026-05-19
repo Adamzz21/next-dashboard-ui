@@ -9,7 +9,7 @@
     
 }
 .react-calendar__navigation__label__labelText{
-    font-weight: 600;
+    font-weight: 600 !important;
 
 }
 .react-calendar__tile--active {
@@ -28,7 +28,7 @@
 }
 .rbc-btn-group:last-child button{
     border: none !important;
-    background-color:#f1f0ff;
+    background-color:#f1f0ff !important; 
     margin-left: 2px !important;
 }
 rbc-toolbar button.rbc-active{
@@ -91,5 +91,5 @@ rbc-toolbar button.rbc-active{
 }
 .rbc-event-label{
     color: gray !important;
-    margin-bottom: 5px;
+    margin-bottom: 5px !important;
 }
